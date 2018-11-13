@@ -1,0 +1,558 @@
+/*-----------------------------------------------------------------------------
+Revolution Slider 4.1 Captions - Custom Styled for Venedor Template
+Screen Stylesheet
+
+version:   	1.4.5
+date:      	27/11/13
+author:		themepunch
+email:     	info@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+#revslider-container {
+	width:100%;
+	position:relative;
+	padding:0;
+	overflow:hidden;
+	background: #fafafa;
+}
+ 
+#revslider{
+	width:100%;
+	position:relative;
+}
+
+#slider-rev ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#slider-rev > ul >li{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+}
+
+.tp-caption { 
+	z-index:1;
+	position:absolute;
+	z-index:999;
+}
+
+.tp-caption.rev-title-small {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:80px;
+	line-height:1.5;
+	text-transform: uppercase;
+}
+
+.tp-caption.rev-title-small2 {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:50px;
+	line-height:1.5;
+	text-transform: uppercase;
+}
+
+.tp-caption.rev-title {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:120px;
+	line-height:1;
+	text-transform: uppercase;
+}
+
+.tp-caption.rev-title2 {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:100px;
+	line-height:1;
+	text-transform: uppercase;
+}
+
+.tp-caption.rev-title3 {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:90px;
+	line-height:1;
+	text-transform: uppercase;
+}
+
+.tp-caption.rev-title-xsmall {
+	position:absolute;
+	color:#fff;
+	font-family: 'ralewayextrabold', Verdana;
+	font-size:30px;
+	line-height:1.5;
+	text-transform: uppercase;
+}
+
+
+@media (min-width: 980px) and (max-width: 1199px) { 
+	.tp-caption.rev-title-small {
+		font-size:66px;
+	}
+
+	.tp-caption.rev-title-small2 {
+		font-size:42px;
+	}
+
+	.tp-caption.rev-title {
+		font-size:102px;
+	}
+
+	.tp-caption.rev-title2 {
+		font-size:80px;
+	}
+
+	.tp-caption.rev-title3 {
+		font-size:72px;
+	}
+
+	.tp-caption.rev-title-xsmall {
+		font-size:24px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.tp-caption.rev-title-small {
+		font-size:54px;
+		margin-left:-55px !important;
+	}
+
+	.tp-caption.rev-title-small2 {
+		font-size:36px;
+		margin-left:-55px !important;
+	}
+
+	.tp-caption.rev-title {
+		font-size:92px;
+		margin-left:-20px !important;
+	}
+
+	.tp-caption.rev-title2 {
+		font-size:72px;
+		margin-left:-55px !important;
+	}
+
+	.tp-caption.rev-title3 {
+		font-size:64px;
+		margin-left:-55px !important;
+	}
+
+	.tp-caption.rev-title-xsmall {
+		font-size:20px;
+		margin-left:-55px !important;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.tp-caption.rev-title-small {
+		font-size:46px;
+		margin-left:-22px !important;
+	}
+
+	.tp-caption.rev-title-small2 {
+		font-size:32px;
+		margin-left:-25px !important;
+	}
+
+	.tp-caption.rev-title {
+		font-size:80px;
+		margin-left:25px !important;
+	}
+
+	.tp-caption.rev-title2 {
+		font-size:74px;
+		margin-left:20px !important;
+	}
+
+	.tp-caption.rev-title3 {
+		font-size:56px;
+	}
+
+	.tp-caption.rev-title-xsmall {
+		font-size:18px;
+		margin-left:-35px !important;
+	}
+
+}
+
+.tp-caption.rev-scroll-down {
+	position:absolute;
+	display:block;
+	width:56px;
+	height:56px;
+	background-image: url('../images/homesliders/onepage-revslider/onepage-scrolldown-btn.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	text-indent:-9999px;
+}
+
+.tp-caption.rev-scroll-down:hover {
+	background-position: 0 -56px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.tp-caption.rev-scroll-down {
+		margin-left:-104px !important;
+	}
+
+}
+
+@media (max-width: 768px) { 
+	.tp-caption.rev-scroll-down {
+		margin-left:-72px !important;
+	}
+}
+
+.tp-caption.rev-text {
+	position:absolute;
+	color:#fff;
+	font-weight:400;
+	font-size:18px;
+	line-height:30px;
+	max-width:960px;
+	width:auto;
+	text-align:center;
+}
+
+.tp-caption.rev-line-separator {
+	position:absolute;
+	width:60px;
+	height:1px;
+	background: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.tp-caption.rev-text {
+		font-size:16px;
+		line-height:30px;
+		max-width:700px;
+	}
+
+	.tp-caption.rev-line-separator {
+		margin-left:-96px !important;
+	}
+
+}
+
+@media (max-width: 768px) { 
+	.tp-caption.rev-text,
+	.tp-caption.rev-line-separator {
+		display:none;
+	}	
+}
+
+
+/**********************************************
+	-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
+**********************************************/
+
+.fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+}
+
+.fullwidthbanner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+	overflow:hidden;
+}
+
+.fullwidthbanner-container .fullwidthbanner{
+	width:100%;
+	position:relative;
+}
+
+
+
+/************************************************
+	  - SOME CAPTION MODIFICATION AT START  -
+*************************************************/
+.tp-simpleresponsive .caption,
+.tp-simpleresponsive .tp-caption {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		
+	opacity: 0;
+	position:absolute;
+	visibility: hidden;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+.tp-simpleresponsive img	{	
+	max-width:none;
+}
+
+
+/******************************
+	-	IE8 HACKS	-
+*******************************/
+.noFilterClass {
+	filter:none !important;
+}
+
+/********************************
+	-	FULLSCREEN VIDEO	-
+*********************************/
+.caption.fullscreenvideo {	left:0px; top:0px; position:absolute;width:100%;height:100%;}
+.caption.fullscreenvideo iframe,
+.caption.fullscreenvideo video	{ width:100% !important; height:100% !important; display: none}
+
+.tp-caption.fullscreenvideo {	left:0px; top:0px; position:absolute;width:100%;height:100%;}
+.tp-caption.fullscreenvideo iframe,
+.tp-caption.fullscreenvideo iframe video	{ width:100% !important; height:100% !important; display: none;}
+
+
+.fullscreenvideo .vjs-loading-spinner { visibility:none;display:none !important; width:0px;height:0px;}
+.fullscreenvideo .vjs-control-bar.vjs-fade-out,
+.fullscreenvideo .vjs-control-bar.vjs-fade-in,
+.fullscreenvideo .vjs-control-bar.vjs-fade-out.vjs-lock-showing,
+.fullscreenvideo .vjs-control-bar.vjs-fade-in.vjs-lock-showing		{	visibility: hidden !important; opacity: 0 !important;display:none !important;width:0px;height:0px;overflow: hidden;}
+
+.fullcoveredvideo.video-js,
+.fullcoveredvideo video				{	background: transparent !important;}
+
+.fullcoveredvideo .vjs-poster		{	background-position: center center;background-size: cover;width:100%;height:100%;top:0px;left:0px;}
+
+
+/************************
+	-	NAVIGATION	-
+*************************/
+
+/** BULLETS **/
+
+.tpclear{	
+	clear:both;
+}
+
+
+.tp-bullets	{	
+	z-index:700;
+	position:absolute;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	line-height:0 ;
+	opacity: 1;
+	bottom:30px !important;
+	-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
+}
+
+.tp-bullets.hidebullets	{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+
+/*************************************
+	-	TP ARROWS 	-
+**************************************/
+.tparrows {
+	display:none !important;
+}
+
+.tp-bullets.simplebullets .bullet.first {
+	margin-left:220px !important;
+}
+
+.tp-bullets.simplebullets .bullet {
+	cursor: pointer;
+	position: relative !important;
+	background:url('../images/homesliders/index6-revslider/index6-revslider-pager.png') no-repeat 0 0 !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 16px !important;
+	height: 16px !important;
+	display: inline-block;
+	margin:0  5px !important;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	-ms-transition: background 0.2s;
+	transition: background 0.2s;
+	float:none !important;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+}
+.tp-bullets.simplebullets .bullet.last {
+	margin-right: 0px
+}
+.tp-bullets.simplebullets .bullet:hover,
+.tp-bullets.simplebullets .bullet.selected {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	width: 16px !important;
+	height: 16px !important;
+	background:url('../images/homesliders/index6-revslider/index6-revslider-pager.png') no-repeat 0 -19px !important;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.tp-bullets.simplebullets .bullet.first {
+		margin-left:0 !important;
+	}
+
+}
+
+@media (max-width: 768px) { 
+	.tp-bullets.simplebullets {
+		display:none !important;
+	}
+}
+
+/***************************************
+	-	RESPONSIVE SETTINGS 	-
+****************************************/
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	.responsive .tp-bullets	{
+		display:none
+	}
+	.responsive .tparrows	{
+		display:none;
+	}
+}
+
+
+/************************************
+		-	TP BANNER TIMER		-
+*************************************/
+.tp-bannertimer	{	
+	width:100%; 
+	height:3px; 
+	background:rgba(255, 255, 255, 0.6);
+	position:absolute; 
+	z-index:200;
+	top:0px;
+}
+
+.tp-bannertimer.tp-bottom {	
+	bottom:0px;
+	height:3px; 
+	top:auto;
+}
+
+/******************************
+	-	HTML5 VIDEO SETTINGS	-
+********************************/
+
+.vjs-tech {
+	margin-top:1px;
+}
+
+.tp-caption .vjs-default-skin .vjs-big-play-button	{	
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+	line-height: 30px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.tp-caption .vjs-default-skin .vjs-big-play-button:before {
+	 position:absolute;
+	 top:0px; left:0px;
+	 line-height:40px;
+	 text-shadow: none !important;
+	 color:#fff;
+	 font-size:18px;
+
+}
+
+.tp-caption  .vjs-default-skin:hover .vjs-big-play-button, 
+.vjs-default-skin .vjs-big-play-button:focus {
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+/*********************************************
+	-	BASIC SETTINGS FOR THE BANNER	-
+***********************************************/
+
+ .tp-simpleresponsive img {
+		-moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+.tp-simpleresponsive a{	text-decoration:none;}
+
+.tp-simpleresponsive ul {
+	padding:0;
+	margin:0;
+	visibility:hidden;
+}
+
+.tp-simpleresponsive > ul >li{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+}
+
+.tp-loader 	{	
+		background:url(../images/loader.gif) no-repeat 10px 10px;
+		background-color:#fff;  
+		margin:-22px -22px; 
+		top:50%; 
+		left:50%; 
+		z-index:1999; 
+		position:absolute;
+		width:44px;
+		height:44px;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+}
+
+.tp-3d	{	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 50%;
+}
+
+@media (max-width: 767px) { 
+	.tp-caption .btn {
+		padding:4px 9px;
+		font-size:9px;
+	}
+}
+
+@media (max-width: 480px) {
+	.tp-caption .btn {
+		padding:2px 5px;
+		font-size:7px;
+	}
+}
+
+.tp-caption img {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+	zoom: 1;
+}
+
